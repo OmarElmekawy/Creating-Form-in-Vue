@@ -1,0 +1,24 @@
+.buttonsContainer {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+
+  .next {
+    border: 1px solid $buttonsColor;
+    padding: 10px;
+    color: $buttonsColor;
+    border-radius: 35px;
+    width: 100px;
+    background-color: transparent;
+    margin: 10px;
+  }
+  .retry {
+    border: 1px solid $buttonsColor;
+    padding: 10px;
+    color: $buttonsColor;
+    border-radius: 35px;
+    width: 120px;
+    background-color: transparent;
+    margin: 10px;
+  }
+}

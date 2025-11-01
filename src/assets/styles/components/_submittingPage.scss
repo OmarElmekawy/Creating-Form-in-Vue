@@ -1,0 +1,19 @@
+.submitContainer {
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+
+  button {
+    border: 1px solid $buttonsColor;
+    background-color: transparent;
+    color: $buttonsColor;
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  p {
+    font-weight: bold;
+    font-size: 24px;
+  }
+}

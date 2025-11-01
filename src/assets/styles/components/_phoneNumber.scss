@@ -1,0 +1,20 @@
+.phoneNumContainer {
+  position: relative;
+}
+
+.plus {
+  position: absolute;
+  top: 42px;
+  left: 4px;
+  border: 1px solid $primaryColor;
+  background-color: transparent;
+}
+
+.minus {
+  position: absolute;
+  top: 42px;
+  left: 36px;
+  color: red;
+  border: 1px solid $primaryColor;
+  background-color: transparent;
+}

@@ -1,0 +1,19 @@
+.genderLabel {
+  color: $labelColor;
+  font-size: 18px;
+  &::after{
+    content: "*";
+    color:$astrickColor;
+  }
+}
+.typeLabel {
+  padding: 3px;
+  color: $labelColor;
+}
+.genderInput {
+  text-align: center;
+  color: $primaryColor;
+}
+.genderContainer{
+    margin-top: 12px;
+}

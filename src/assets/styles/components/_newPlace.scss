@@ -1,0 +1,15 @@
+.newPlace {
+  border: 1px solid $primaryColor;
+  margin: 20px 0;
+  border-radius: 6px;
+  padding: 6px 7px;
+  cursor: pointer;
+  P{
+   text-align: center;
+   margin: 0;
+   color: black;
+  }
+  i{
+    color: $primaryColor;
+  }
+}
